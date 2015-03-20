@@ -19,7 +19,7 @@ namespace ExpediaTest
 		}
 		
 		[Test()]
-		public void TestThatUserInitializes()
+        public void TestThatUserInitializes()
 		{
 			Assert.AreEqual("Bob Dole", target.Name);
 		}
